@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Sep 12 21:32:02 2021
-
-@author: 82104
-"""
 
 ## 지도 그려보기.
 
