@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 14 01:10:37 2021
-
-@author: 82104
-"""
 
 import googlemaps
 import pandas as pd
