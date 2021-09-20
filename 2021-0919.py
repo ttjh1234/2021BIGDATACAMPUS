@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Sep 19 22:19:41 2021
-
-@author: 82104
-"""
 
 import googlemaps
 import pandas as pd
@@ -16,7 +10,7 @@ import geopandas as gpd
 
 pd.set_option('display.max_columns',30)
 
-os.chdir("C:/Users/82104/Desktop/빅캠 노인/데이터")
+os.chdir("C:/Users/-----/Desktop/빅캠 노인/데이터")
 
 def 자치구_2021():
     file_=os.listdir("./생활이동_자치구/")
@@ -175,7 +169,7 @@ def 주소오류처리(df):
 
 def 주소위도경도변환(df):
    # 각자 API KEY 설정
-    gmaps_key='AIzaSyBYCcNSPpppM2eg-dMoUVdOnR_aJjZR_pY'
+    gmaps_key='Your Key'
     gmaps=googlemaps.Client(key=gmaps_key)
     
     시설주소=[]
@@ -230,7 +224,7 @@ def 주소예외처리(df):
     df.iloc[1044,7]="서울특별시 은평구 진흥로 91-1"
     df.iloc[1081,7]="서울특별시 구로구 천왕동 277"
 
-    gmaps_key='AIzaSyBYCcNSPpppM2eg-dMoUVdOnR_aJjZR_pY'
+    gmaps_key='Your Key'
     gmaps=googlemaps.Client(key=gmaps_key)
     
     for i in [1044,1081]:
