@@ -2,7 +2,7 @@
 """
 Created on Thu Sep 30 18:21:57 2021
 
-@author: 82104
+@author: ----
 """
 
 import googlemaps
@@ -16,7 +16,7 @@ import geopandas as gpd
 
 pd.set_option('display.max_columns',40)
 
-os.chdir("C:/Users/82104/Desktop/빅캠 노인/데이터")
+os.chdir("C:/Users/-----/Desktop/빅캠 노인/데이터")
 
 data=pd.read_csv("./cluster2.csv",encoding='EUC-KR')
 
