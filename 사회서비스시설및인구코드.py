@@ -17,11 +17,11 @@ import geopandas as gpd
 
 pd.set_option('display.max_columns',30)
 
-os.chdir("C:/Users/82104/Desktop/빅캠 노인/데이터")
+os.chdir("C:/Users/-----/Desktop/빅캠 노인/데이터")
 
 # 각자 API KEY 설정.
 
-gmaps_key='AIzaSyBYCcNSPpppM2eg-dMoUVdOnR_aJjZR_pY'
+gmaps_key='--'
 
 
 def 자치구_2021():
